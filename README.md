@@ -7,17 +7,18 @@ Encrypting PDFs is, at best, protection against the prying eyes of an opportunis
 
 ---
 ## Installation
----
+
 git clone https://github.com/ALFRED20000/Set_password_on_pdf.git
----
+
 ## Dependencies 
-<h3> Set_password_on_pdf uses the PyPDF module.
+<h4> Set_password_on_pdf uses the PyPDF module.
 
 The specific versions can be found in the requirements file. The modules can be installed manually or using said file:
 
-Linux/OSX:</h3>
+Linux/OSX:
+</h4>
 ---
-<h1> WINDOWS </h1>
+<h2> WINDOWS </h2>
 ---
 <h4>pip install pypdf</h4>
 
