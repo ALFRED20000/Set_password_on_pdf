@@ -17,8 +17,20 @@ The specific versions can be found in the requirements file. The modules can be 
 
 Linux/OSX:
 </h4>
----
-<h2> WINDOWS </h2>
----
-<h4>pip install pypdf</h4>
 
+<h4> WINDOWS </h4>
+<h4> install https://code.visualstudio.com/download?_exp_download=d53503e735</h4>
+<h4> pip install pypdf</h4>
+---
+<h5> 
+from pypdf import PdfReader, PdfWriter 
+reader = PdfReader("dataAnalysisNotes.pdf")
+writer = PdfWriter()
+
+writer.append(reader)
+#remove the hash tag and run to set password
+#writer.encrypt("2461")
+
+with open("protected.pdf", "wb") as file : writer.write(file)
+</h5>
+---
